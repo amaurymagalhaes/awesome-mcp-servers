@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/server-metadata.schema.json",
+  "id": "slowo-io-mcp-9921d4b8",
+  "source": {
+    "issue": 5335,
+    "projectUrl": "https://slowo.io/mcp"
+  },
+  "links": {
+    "endpoint": "https://slowo.io/api/mcp"
+  },
+  "transport": [
+    "streamable-http"
+  ],
+  "auth": {
+    "type": "oauth",
+    "notes": [
+      "oauth"
+    ]
+  },
+  "clients": [
+    "The guide includes setup commands for Claude Code and Codex CLI. Compatibility with individual clients should be verified",
+    "no broad client certification is claimed."
+  ],
+  "license": "Proprietary hosted service."
+}
